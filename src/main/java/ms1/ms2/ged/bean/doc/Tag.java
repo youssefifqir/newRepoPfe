@@ -8,7 +8,6 @@ public class Tag {
     private Long id;
     private String code;
     private String libelle;
-    private String mjarbin;
 
     public Long getId() {
         return id;
