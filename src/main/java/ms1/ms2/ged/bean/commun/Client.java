@@ -13,6 +13,16 @@ public class Client {
    private Long id;
    private  String fullName;
    private String email;
+
+   public int getAge() {
+      return age;
+   }
+
+   public void setAge(int age) {
+      this.age = age;
+   }
+
+   private int age;
    private LocalDateTime dateRegistration;
    private BigDecimal nombreEnfant;
    @ManyToOne
