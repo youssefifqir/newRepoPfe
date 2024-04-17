@@ -14,6 +14,7 @@ public class Document {
 
     @Id
     private Long id;
+    Boolean statment;
     private String reference;
     private LocalDateTime uploadDate;
     private String content;
